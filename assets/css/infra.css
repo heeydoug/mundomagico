@@ -1,0 +1,41 @@
+.subtitulo{
+  margin-top: 30px;
+}
+
+.infra{
+  margin-bottom: 40px;
+}
+
+.img_slider{
+  margin-bottom: 20px;
+}
+
+.img_slider div h3{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.img_slider div img{
+    margin-left: 170px;
+    margin-right: 170px;
+    width: 600px;
+}
+
+.img_preview{
+  margin-top: 30px;
+}
+
+.img_preview div img{
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.voltar{
+  margin: 30px 0;
+  text-align: center;
+}
+
+.voltar a{
+  padding: 4px;
+}

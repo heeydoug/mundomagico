@@ -1,0 +1,35 @@
+.noticia_1 {
+  margin-top: 60px;
+}
+
+.noticia_1 ul li{
+  transition: transform .2s;
+  padding-bottom: 20px;
+}
+
+.noticia_1 div img{
+  margin: 0 auto;
+}
+  
+.noticia_1 div p{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.noticia_1 ul li:hover{
+  transform: scale(1.1);
+}
+
+.video iframe{
+  margin: 30px 160px 0 160px
+} 
+
+.back{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.back a{
+  padding: 8px;
+}

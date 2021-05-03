@@ -1,0 +1,403 @@
+@media only screen and (min-width:1400px){
+  .img-1{
+    width: 100%;
+    height: 475px;
+    margin-top: 93px;
+    background: url(../img/conectados_ao_mundo_magico.png);
+    background-size: cover;
+  }
+
+  .img-2{
+    width: 100%;
+    height: 475px;
+    margin-top: 93px;
+    background: url(../img/um_mundo_de_oportunidades.png);
+    background-size: cover;
+  }
+
+  .img-3{
+    width: 100%;
+    height: 475px;
+    margin-top: 93px;
+    background: url(../img/hotelzinho_large.png);
+    background-size: cover;
+  }
+}
+
+/* Estilo de tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+  .lista_links li h3{
+   padding-left: 0;
+   padding-right: 0;
+  }
+  
+  .lista_links li a{
+    margin: 17px 0 0 14px;
+    padding: 8px 0;
+    display: inline-block;
+  }
+  
+  .lista_links li:nth-child(2) a{
+    margin-top: 47px;
+  }
+
+  .lista_links li:nth-child(3) a{
+    margin-top: 47px;
+  }
+
+  .img_slider div img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.call_action div:nth-child(1){
+  margin-left: 240px;
+  margin-right: 123px;
+}
+
+.call_action div:nth-child(2){
+  margin-right: 0;
+}
+
+.call_action div h3{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.call_action div a{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 20px 20px;
+  display: block;
+  padding: 3px;
+}
+
+.img_border{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Qualidade Home */
+
+.qualidade::after{
+  width: 634px;
+  height: 83px;
+  right: 66px;
+}
+
+.qualidade_lista li{
+  padding: 0 10px;
+}
+
+/* footer */
+
+}
+
+
+/* Estilo smartphone */
+@media only screen and (max-width: 787px){
+
+
+/* header */
+.menu_mobile{
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.menu_desktop{
+  display: none;
+}
+
+.header{
+  position: relative;
+  padding-bottom: 0;
+}
+
+.header nav{
+  margin-left: 0;
+  margin-right: 0;
+  display: none;
+}
+
+.header img{
+  margin: 0 auto 10px auto;
+}
+
+.header_menu{
+ text-align: center;
+}
+
+.header_menu ul li{
+  margin: 5px;
+}
+
+.header_menu ul li ul li{
+  display: block;
+}
+
+.header_menu ul li a{
+  font-size: 14px;
+  display: inline-block;
+}
+
+.header_menu ul li:active > ul{
+  display: block;
+}
+
+.sub_menu {
+  position: absolute;
+  background: #ffffff;
+  text-align: left;
+
+}
+
+.sub_menu li{
+  display: block;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.header_menu ul li a:hover{
+  border-color: #ffffff;
+}
+
+.header_menu ul li a.menu_ativo{
+  border-color: #ffffff;
+}
+
+.lista_links li{
+  margin: 0 0 20px 0;
+}
+
+.lista_links li a{
+  margin: 44px 0 32px 77px;
+  padding: 8px 0;
+  display: inline-block;
+}
+
+
+/* introdução */
+.introducao h1{
+  font-size: 38px;
+}
+
+.introducao{
+  margin-top: 0;
+  padding-top: 40px;
+  background: url(../img/bg-mobile.jpg) no-repeat center;
+}
+
+.introducao_interna{
+  margin-top: 0px;
+}
+
+/* call to action */
+
+.call{
+  padding-top: 10px;
+}
+
+/* Qualidade */
+
+.qualidade_lista{
+  overflow: hidden;
+}
+
+.qualidade::after{
+  display: none;
+}
+
+.qualidade::after{
+  right: 66px;
+}
+
+.qualidade_lista li{
+  padding: 0 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.qualidade_lista li h3{
+  text-align: center;
+}
+
+.qualidade_lista li p{
+  text-align: center;
+}
+
+.qualidade_lista .btn{
+  margin-left: 10px;
+}
+
+/* Sobre */
+.banner_sobre h1{
+  text-align: center;
+  margin: 0;
+}
+
+.links_sobre li{
+  margin-bottom: 20px;
+}
+
+.banner_objetivos h1{
+  margin: 0;
+  text-align: center;
+}
+
+.call_action div:nth-child(1){
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.call_action div:nth-child(2){
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.img_slider{
+  overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.img_slider div img{
+  margin: 0 auto;
+  /*margin-left: 0;
+  margin-right: 0;*/
+}
+
+.objetivos h3{
+  border: none;
+  text-align: center;
+}
+
+.banner_objetivos{
+  margin-top: 0;
+}
+
+.obj_lista{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.banner_contato{
+  margin-top: 0;
+}
+
+.img-1{
+  width: 100%;
+  height: 380px;
+  margin-top: 0;
+  background-size: cover;
+  background: url(../img/conectados_ao_mundo_mágico_celular.png);
+}
+
+.img-2{
+  width: 100%;
+  height: 380px;
+  margin-top: 0;
+  background-size: cover;
+  background: url(../img/um_mundo_de_oportunidades_celular.png);
+}
+
+.img-3{
+  width: 100%;
+  height: 380px;
+  margin-top: 0;
+  background-size: cover;
+  background: url(../img/hotelzinho_mb.jpg);
+}
+
+.banner_sobre{
+  width: 100%;
+  height: 140px;
+  background: url(../img/banner_escola.png);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.banner_objetivos_edf{
+  width: 100%;
+  height: 140px;
+  background: url(../img/edf_mb.jpg);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.banner_objetivos_hotelzinho{
+  width: 100%;
+  height: 380px;
+  background: url(../img/hotelzinho_mb.jpg);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.banner_objetivos_inf{
+  width: 100%;
+  height: 140px;
+  background: url(../img/edi_mb.jpg);
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.banner_contato{
+  height: 140px;
+  background: url(../img/fale_conosco_celular.png);
+}
+
+.historia nav{
+  display: none;
+}
+
+.contato_lista li{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mapa{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.noticias div ul li{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.galeria div ul li{
+  margin-left: 0;
+  margin-right: 0;
+  }
+
+  .img_preview{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .atalhos{
+    display: none;
+  }
+
+  .noticia_1 ul li{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .video iframe{
+    width: 280px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .resumo_ed {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

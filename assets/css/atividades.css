@@ -1,0 +1,66 @@
+.menu_interno nav ul{
+  margin-top: 75px;
+}
+
+.menu_interno nav ul li{
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.menu_interno nav ul li a{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color:#262262;
+  font-weight: bold;
+}
+
+.menu_interno nav ul li a:hover{
+  color: #2B4B96;
+  border-bottom: 2px solid #2B4B96;
+}
+
+.menu_interno nav ul li .menu_ativo{
+  color: #648CB3;
+  border-bottom: 2px solid #648CB3;
+  
+}
+
+.projetos li {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.projetos li div{
+  display: inline-block;
+  width: 100%;
+}
+
+.projetos li div:hover img{
+  background: #2B4B96;
+}
+
+.projetos li div h3{
+  text-align: center;
+  padding-left: 80px;
+  color: #262262;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  position: relative;
+  bottom: 80px;
+}
+
+.projetos li div:hover h3{
+  color: #648CB3;
+  text-decoration: underline;
+}
+
+.projetos li div img{
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: #648CB3;
+  border-radius: 6px;
+}

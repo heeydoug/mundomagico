@@ -1,0 +1,39 @@
+.subtitulo{
+  margin-top: 60px;
+}
+
+.noticias div ul li h3{
+  color: #262262;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.noticias div ul li:hover{
+  background: #262262;
+  transform: scale(1.1);
+  
+}
+
+.noticias div ul li:hover h3{
+  color: #ffffff;
+}
+
+.noticias div ul li:hover p{
+  color: #ffffff;
+}
+
+.noticias div ul li a p{
+  color: black;
+  text-align: justify;
+  font-size: 14px;
+  padding: 0 8px 8px 8px;
+}
+
+.noticias div ul li{
+  border: 1px solid #d9d9d9;
+  margin-bottom: 60px;
+  transition: transform .2s;
+}
