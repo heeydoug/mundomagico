@@ -12,6 +12,10 @@
   padding: 60px 0;
 }
 
+.justificar{
+  text-align: justify;
+}
+
 .objetivos h3{
   border-right: 3px solid #262262;
   font-size: 20px;
