@@ -2,7 +2,7 @@
   .img-1{
     width: 100%;
     height: 475px;
-    margin-top: 93px;
+    margin-top: 135px;
     background: url(../img/conectados_ao_mundo_magico.png);
     background-size: cover;
   }
@@ -10,7 +10,7 @@
   .img-2{
     width: 100%;
     height: 475px;
-    margin-top: 93px;
+    margin-top: 135px;
     background: url(../img/um_mundo_de_oportunidades.png);
     background-size: cover;
   }
@@ -18,8 +18,15 @@
   .img-3{
     width: 100%;
     height: 475px;
-    margin-top: 93px;
+    margin-top: 135px;
     background: url(../img/hotelzinho_large.png);
+    background-size: cover;
+  }
+  .img-4{
+    width: 100%;
+    height: 475px;
+    margin-top: 135px;
+    background: url(../img/semanaambientedif.png);
     background-size: cover;
   }
 }
@@ -309,6 +316,14 @@
   margin-top: 0;
   background-size: cover;
   background: url(../img/hotelzinho_mb.jpg);
+}
+
+.img-4{
+  width: 100%;
+  height: 380px;
+  margin-top: 0;
+  background-size: cover;
+  background: url(../img/semanaambientecelular.png);
 }
 
 .banner_sobre{
